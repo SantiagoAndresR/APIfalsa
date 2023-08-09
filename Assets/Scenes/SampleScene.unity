@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 374408328}
   - component: {fileID: 374408327}
   m_Layer: 5
-  m_Name: NombreCarta5
+  m_Name: NombreCarta2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 382.5, y: -144}
+  m_AnchoredPosition: {x: -182, y: -144}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374408327
@@ -1080,7 +1080,7 @@ GameObject:
   - component: {fileID: 546247926}
   - component: {fileID: 546247925}
   m_Layer: 5
-  m_Name: NombreCarta4
+  m_Name: NombreCarta1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1102,7 +1102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198.00002, y: -144}
+  m_AnchoredPosition: {x: -390, y: -144}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546247925
@@ -1375,11 +1375,11 @@ RectTransform:
   - {fileID: 1334898879}
   - {fileID: 85599717}
   - {fileID: 616027569}
-  - {fileID: 1356139388}
-  - {fileID: 1364686285}
-  - {fileID: 1243410794}
   - {fileID: 546247924}
   - {fileID: 374408326}
+  - {fileID: 1364686285}
+  - {fileID: 1356139388}
+  - {fileID: 1243410794}
   - {fileID: 224268215}
   - {fileID: 490978223}
   - {fileID: 1382841803}
@@ -1933,7 +1933,7 @@ GameObject:
   - component: {fileID: 1243410796}
   - component: {fileID: 1243410795}
   m_Layer: 5
-  m_Name: NombreCarta3
+  m_Name: NombreCarta5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1955,7 +1955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -144}
+  m_AnchoredPosition: {x: 370, y: -144}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1243410795
@@ -2139,7 +2139,7 @@ GameObject:
   - component: {fileID: 1356139390}
   - component: {fileID: 1356139389}
   m_Layer: 5
-  m_Name: NombreCarta1
+  m_Name: NombreCarta4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2161,7 +2161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.29996, y: -144}
+  m_AnchoredPosition: {x: 190, y: -144}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1356139389
@@ -2273,7 +2273,7 @@ GameObject:
   - component: {fileID: 1364686287}
   - component: {fileID: 1364686286}
   m_Layer: 5
-  m_Name: NombreCarta2
+  m_Name: NombreCarta3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2295,7 +2295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184, y: -144}
+  m_AnchoredPosition: {x: -2, y: -144}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1364686286
