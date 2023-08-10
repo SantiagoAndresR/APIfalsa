@@ -1048,21 +1048,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UserId: 1
   url: https://my-json-server.typicode.com/SantiagoAndresR/ReSTAPI
-  RickAndMortyAPI: https://rickandmortyapi.com/api/character
+  RickMorty: https://rickandmortyapi.com/api/character
   PlayerName: {fileID: 865652121}
-  MyDeck:
-  - {fileID: 85599718}
-  - {fileID: 1334898880}
-  - {fileID: 616027570}
+  Card:
   - {fileID: 1121776335}
   - {fileID: 1671769254}
-  MyDeckName:
-  - {fileID: 1356139389}
-  - {fileID: 1364686286}
-  - {fileID: 1243410795}
+  - {fileID: 1334898880}
+  - {fileID: 85599718}
+  - {fileID: 616027570}
+  CardName:
   - {fileID: 546247925}
   - {fileID: 374408327}
-  MyDeckNumber:
+  - {fileID: 1364686286}
+  - {fileID: 1356139389}
+  - {fileID: 1243410795}
+  CardNumber:
   - {fileID: 224268216}
   - {fileID: 490978224}
   - {fileID: 1382841804}
