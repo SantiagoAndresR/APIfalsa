@@ -17,6 +17,27 @@ public class AuthHandler : MonoBehaviour
     private string Token;
     private string Username;
 
+    [SerializeField]
+    private GameObject loginUI;
+
+    [SerializeField]
+    private GameObject registerUI;
+
+    [SerializeField]
+    private GameObject UserUI;
+
+    [SerializeField]
+    private GameObject IDUI;
+
+    [SerializeField]
+    private GameObject ScoreUI;
+
+    [SerializeField]
+    private GameObject UsuarioUI;
+
+    [SerializeField]
+    private GameObject PasseordUI;
+
 
     private void Start()
     {
@@ -47,6 +68,10 @@ public class AuthHandler : MonoBehaviour
         string json = JsonUtility.ToJson(authData);
 
         StartCoroutine(SendRegister(json));
+
+        registerUI.SetActive(false);
+        loginUI.SetActive(true);
+
     }
 
     public void Login()
@@ -58,6 +83,14 @@ public class AuthHandler : MonoBehaviour
         string json = JsonUtility.ToJson(authData);
 
         StartCoroutine(SendLogin(json));
+
+        loginUI.SetActive(false);
+        registerUI.SetActive(false);
+        UserUI.SetActive(true);
+        IDUI.SetActive(true);
+        ScoreUI.SetActive(true);
+        UsuarioUI.SetActive(false);
+        PasseordUI.SetActive(false);
     }
 
     IEnumerator GetPerfil(string username)
